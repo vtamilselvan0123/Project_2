@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: trend-deployment
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: trend-app
+  template:
+    metadata:
+      labels:
+        app: trend-app
+    spec:
+      containers:
+      - name: trend-container
+        image: 001915087126.dkr.ecr.ap-south-1.amazonaws.com/trend-app:latest
+        ports:
+        - containerPort: 80
