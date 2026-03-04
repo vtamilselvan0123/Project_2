@@ -1,4 +1,4 @@
-# Project – Terraform + Jenkins CI/CD Deployment to AWS EKS with Monitoring
+# Project:Trend_Store – Terraform + Jenkins CI/CD Deployment to AWS EKS with Monitoring
 
 ## Overview
 This project demonstrates a complete DevOps pipeline using:
